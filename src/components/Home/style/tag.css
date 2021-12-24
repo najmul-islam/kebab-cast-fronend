@@ -1,0 +1,7 @@
+.fab,
+.fas {
+  font-size: 3rem;
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(to right, #461616, #e34b35);
+}
