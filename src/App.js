@@ -9,7 +9,7 @@ import CategoriesPage from "./pages/CategoriesPage";
 import AboutUsPage from "./pages/AboutUsPage";
 import ContactPage from "./pages/ContactPage";
 
-import GoToTop from "./components/other/GoToTop";
+import GoToTop from "./components/helper/GoToTop";
 import Footer from "./components/Footer/Footer";
 
 const App = () => {

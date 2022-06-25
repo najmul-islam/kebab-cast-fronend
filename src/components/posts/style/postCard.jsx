@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const BlogTitle = styled.a`
+export const PostTitle = styled.a`
   font-size: 18px;
   text-decoration: none;
   font-weight: bold;
@@ -8,7 +8,7 @@ export const BlogTitle = styled.a`
   margin-bottom: 30px;
 `;
 
-export const Blogcard = styled.div`
+export const Postcard = styled.div`
   border-radius: 10px;
   margin: 20px 0;
   overflow: hidden;
@@ -19,11 +19,11 @@ export const Blogcard = styled.div`
     color: #fff;
   }
 
-  &:hover ${BlogTitle} {
+  &:hover ${PostTitle} {
     color: #fff;
   }
 `;
 
-export const BlogDesc = styled.div`
+export const PostDesc = styled.div`
 
 `

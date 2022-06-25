@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import Heading from "../other/Heading";
-import Devider from "../other/Devider";
-import HistoryBlogs from "./HistoryBlogs";
+import Heading from "../helper/Heading";
+import Devider from "../helper/Devider";
+import HistoryPosts from "./HistoryPosts";
 
 const HistorySection = () => {
   return (
@@ -10,7 +10,7 @@ const HistorySection = () => {
       <div className="container">
         <Heading head="History" subhead="Historical articles" />
         <Devider />
-        <HistoryBlogs />
+        <HistoryPosts />
       </div>
     </HistorySec>
   );

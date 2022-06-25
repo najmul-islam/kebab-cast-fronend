@@ -1,6 +1,6 @@
 import React from "react";
-import Heading from "../other/Heading";
-import Devider from "../other/Devider";
+import Heading from "../helper/Heading";
+import Devider from "../helper/Devider";
 import TagContainer from "./TagContainer";
 
 const CategorieSection = () => {

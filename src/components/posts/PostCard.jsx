@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { Blogcard, BlogTitle, BlogDesc } from "./style/blogCard";
+import { Postcard, PostTitle, PostDesc } from "./style/postCard";
 import axios from "axios";
 const media_url = process.env.REACT_APP_MEDIA_URL;
 
-const BlogCard = ({ imgId, title, excerpt }) => {
+const PostCard = ({ imgId, title, excerpt }) => {
   const [imgUrl, setImgUrl] = useState("");
   console.log(imgId);
   useEffect(() => {
@@ -21,16 +21,16 @@ const BlogCard = ({ imgId, title, excerpt }) => {
   }, [imgId]);
 
   return (
-    <Blogcard>
+    <Postcard>
       <img src={imgUrl} alt={title} className="img-fluid rounded" />
       <div className="p-3">
-        <BlogTitle>{title}</BlogTitle>
-        <BlogDesc>
+        <PostTitle>{title}</PostTitle>
+        <PostDesc>
           <div dangerouslySetInnerHTML={{ __html: excerpt }}></div>
-        </BlogDesc>
+        </PostDesc>
       </div>
-    </Blogcard>
+    </Postcard>
   );
 };
 
-export default BlogCard;
+export default PostCard;
